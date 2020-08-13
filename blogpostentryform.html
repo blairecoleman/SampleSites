@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Start New Post</title>
+</head>
+<body>
+<nav>
+    <a href = subscribe.php>Home</a>
+</nav>
+<form method = post action = "blogdraft.php">
+    <fieldset>
+        <legend>Post Heading</legend>
+        <label for = "title">Post Title: </label>
+        <input id = "title" name ="title" type = "text">
+        <label for = "author">Post Author: </label>
+        <input type = "text" id = "author" name ="author">
+    </fieldset>
+    <fieldset>
+        <legend>Post Images</legend>
+        <label for = "thumbimg">Thumbnail Image:</label>
+        <input type ="file" id = "thumbimg" name = "thumbnail">
+        <label for = "headimg">Post Heading Image: </label>
+        <input type ="file" id = "headimg" name = "heading">
+        <label for = "footimg"> Post Footer Image:</label>
+        <input type ="file" id = "footimg" name = "footer">
+    </fieldset>
+    <fieldset>
+        <legend>Post Body</legend>
+    <label for = "postdescription">Blog Description</label>
+    <textarea id = "postdescription" name ="description"></textarea>
+    <label for = "postcont">Post Content</label>
+    <textarea id ="postcont" name = "content"></textarea>
+    </fieldset>
+    <fieldset>
+        <legend>Author Blog and Social Media Links</legend>
+        <label for = "instaLink">Instagram: </label>
+        <input type = "text" id = "instaLink" name ="instagram">
+        <label for = "blogLink">Blog: </label>
+        <input type = "text" id = "blogLink" name = "blog">
+        <label for = "linkedLink">LinkedIn: </label>
+        <input type = "text" id = "linkedLink" name = "linkedIn">
+        <label for = "medLink">Medium: </label>
+        <input type = "text" id = "medLink" name = "medium">
+    </fieldset>
+    <label for ="poststatus">Do you Want to Save Draft or Publish?</label>
+    <select id = "poststatus" name = "postStatus">
+        <option value ="save">Save as Draft</option>
+        <option value = "publish">Publish to Site</option>
+    </select>
+    <button type = "submit">Submit</button>
+
+</form>
+
+</body>
+</html>
