@@ -12,9 +12,9 @@
     </header>
     <nav>
         <ul>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
+            <li><a href="blogpostentryform.html">Blog entry</a></li>
+            <li><a href="subscribe.php">Subscribe</a></li>
+            <li><a href="blogdraft.php">Blog Draft</a></li>
             <li><a href=""></a></li>
         </ul>
     </nav>
